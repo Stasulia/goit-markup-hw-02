@@ -1,7 +1,13 @@
 /* Common styles */
 body {
     font-family: "Roboto";}
-/* Header styles */
+ul {
+    list-style-type: none;}
+    a {text-decoration: none;}
+.section {}
+
+    /* Header styles */
+        
 span.web {
     font-family: 'Raleway';
         font-style: normal;
@@ -18,12 +24,117 @@ span.studio {
     line-height: 21px;
     text-transform: uppercase;
     color: #2E2F42;}
+    .header {}
+    
+    .header-nav {}
+    
+    .header-logo {}
+    
+    .web {}
+    
+    .studio {}
+    
+    .header-list {}
+    
+    .header-item {}
+    
+    .header-link { 
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: #2E2F42;
+        }
+     .header-link:hover {color: #404BBF;}
+    
+    .address 
+        
+    .address-list {    
+    }
+    
+    .mail {font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #434455;}
+    .mail:hover,
+    .mail:focus {color: #404BBF ;}
+    
+    .address-mail-link {
+        }
+    .adress-mail-link:hover {}
+
+    .tel {}
+    
+    .address-tel-link {}
+
 /* Main styles */
+
 /* Hero section styles*/
-.hero-button {
+.section {}
+
+.hero {background-color: #2E2F42;}
+
+.hero-title {}
+
+.hero-btn {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #FFFFFF;}
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    }
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404BBF;}
+
+/* Advantages section*/
+.section {}
+
+.advantages {}
+
+.section-advantages-list {}
+
+.section-advantages-item {}
+
+.section-advantages-subtitle {}
+
+.section-advantages-text {}
+
+/*What are we doing section*/
+.section {}
+
+.doing {}
+
+.section-doing-title {}
+
+.section-doing-list {}
+
+.section-doing-item {}
+
+.section-doing-img {}
+/*Our team section*/
+.section {}
+
+.team {}
+
+.section-team-title {}
+
+.section-team-list {}
+
+.section-team-item {}
+
+.section-team-img {}
+
+.section-team-subtitle {}
+
+.section-team-text {}
+/*Footer section*/
+.footer {}
+
+.footer-logo {}
+
+.footer-text {}
