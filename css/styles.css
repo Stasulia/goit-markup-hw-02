@@ -1,28 +1,23 @@
 /* Common styles */
 body {
-    font-family: "Roboto";}
+    font-family: "Roboto", sans-serif;}
 ul {
     list-style-type: none;}
     a {text-decoration: none;}
 .section {}
 
     /* Header styles */
-        
-span.web {
-    font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 21px;
-        text-transform: uppercase;
-        color:#4D5AE5;}
-span.studio {
+.header-logo {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4D5AE5;
+}        
+.header-logo-studio {
     color: #2E2F42;}
     .header {}
     
@@ -43,13 +38,21 @@ span.studio {
             font-weight: 500;
             font-size: 16px;
             line-height: 24px;
+            letter-spacing: 0.02em;
             color: #2E2F42;
         }
      .header-link:hover {color: #404BBF;}
     
     .address 
         
-    .address-list {    
+    .address-list { 
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
     }
     
     .mail {font-style: normal;
