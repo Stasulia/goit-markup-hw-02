@@ -18,7 +18,8 @@ ul {
     color: #4D5AE5;
 }        
 .header-logo-studio {
-    color: #2E2F42;}
+    color: #2E2F42;
+}
     .header {}
     
     .header-nav {}
@@ -45,7 +46,7 @@ ul {
     
     .address 
         
-    .address-list { 
+    .tel { 
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
