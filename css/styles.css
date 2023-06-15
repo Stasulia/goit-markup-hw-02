@@ -125,7 +125,8 @@ button {
 .address-link:focus {
     color: #404BBF;
 }
-
+.address {list-style: none;
+}
 /* Main styles */
 
 /* Hero section styles*/
@@ -227,9 +228,23 @@ button {
     background-color: #404BBF;
 }
 .portfolio-text {
-    color: #434455;
+    color: var(--main-dark-accent);
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+
 }
 .portfolio-main-item {
     background-color: #FFFFFF;
-     border: 1px solid #E7E9FC;;
+    border: 1px solid #E7E9FC;;
+}
+.portfolio-main {
+    list-style: none;
+}
+.portfolio-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-dark-cl);
 }
