@@ -76,7 +76,9 @@ button {
 .header {
     background-color: #FFFFFF;
 }
-.link {text-decoration: none;}    
+.link {
+    text-decoration: none;
+}    
     
 .header-logo {}
     
