@@ -4,16 +4,15 @@
     --main-dark-accent: #434455;
     --main-light-cl: #F4F4FD; 
     --accent-cl: #FFFFFF;
+    --blue-accent-cl: #4D5AE5;
+    --BLUE-accent-cl: #404BBF;
+    --border-cl: #E7E9FC;
 }
 
 /* Common styles */
 body {
     font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: var(--main-dark-accent);
     background-color: var(--accent-cl);
 }
@@ -58,13 +57,12 @@ button {
     /* Logo styles */
 .logo {
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--blue-accent-cl);
 }        
 .logo-dark {
     color: var(--main-dark-cl);
@@ -90,17 +88,8 @@ button {
 .header-list {
     list-style: none;
 }
-    
-.header-item {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02ex;
-    color: var(--main-dark-cl);
-}
-    
+      
 .header-link { 
-    text-decoration: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -109,7 +98,7 @@ button {
 }
 .header-link:hover,
 .header-link:focus {
-    color: #404BBF;
+    color: var(--BLUE-accent-cl);
 }
     
 .address {
@@ -122,11 +111,12 @@ button {
         
 .address-link {
     letter-spacing: 0.02em;
+    line-height: 1.5;
     color: var(--main-dark-accent);
 }
 .address-link:hover,
 .address-link:focus {
-    color: #404BBF;
+    color: var(--BLUE-accent-cl);
 }
 .address {list-style: none;
 }
@@ -153,12 +143,12 @@ button {
     font-size: 16px;
     line-height: 1.5;
     color: var(--accent-cl);
-    background-color: #4D5AE5;
+    background-color: var(--blue-accent-cl);
     letter-spacing: 0.04em;
 }
 .hero-btn:hover,
 .hero-btn:focus {
-    background-color: #404BBF;
+    background-color: var(--BLUE-accent-cl);
 }
 
 /* Advantages section*/
@@ -172,7 +162,10 @@ button {
 
 .section-advantages-subtitle {}
 
-.section-advantages-text {}
+.section-advantages-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
 /*What are we doing section*/
 .section {}
@@ -190,7 +183,8 @@ button {
 /*Our team section*/
 .section {}
 
-.team { background-color: #F4F4FD
+.team { 
+    background-color: var(--main-light-cl) ;
 }
 
 .section-team-title {}
@@ -198,14 +192,17 @@ button {
 .section-team-list {}
 
 .section-team-item {
-    background: #FFFFFF;
+    background: var(--accent-cl);
 }
 
 .section-team-img {}
 
 .section-team-subtitle {}
 
-.section-team-text {}
+.section-team-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
 /*Footer section*/
 .footer {
@@ -217,9 +214,9 @@ button {
 
 /*Portfolio*/
 .portfolio-btn {
-    color: #4D5AE5;
-    background-color: #F4F4FD;
-    border: 1px solid #E7E9FC;
+    color: var(--blue-accent-cl);
+    background-color: var(--main-light-cl);
+    border: 1px solid var(--border-cl);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -227,8 +224,8 @@ button {
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color: var(--accent-cl);
+    background-color: var(--BLUE-accent-cl);
 }
 .portfolio-text {
     color: var(--main-dark-accent);
@@ -238,8 +235,7 @@ letter-spacing: 0.02em;
 
 }
 .portfolio-main-item {
-    background-color: #FFFFFF;
-    border: 1px solid #E7E9FC;;
+
 }
 .portfolio-main {
     list-style: none;
